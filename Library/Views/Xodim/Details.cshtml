@@ -1,0 +1,58 @@
+﻿@model Library.Models.Xodim
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Xodim</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.familiya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.familiya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ismi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ismi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sharifi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sharifi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.login)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.parol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.parol)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.XodimId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

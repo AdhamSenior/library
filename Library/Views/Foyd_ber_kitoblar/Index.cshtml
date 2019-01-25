@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Library.Models.Foyd_ber_kitoblar>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th>
+           Kitob nomi
+        </th>
+        <th>
+          Kitobxon FIO
+        </th>
+        <th>
+           Xodim FIO
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.berilgan_vaqti)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.qaytarilish_vaqti)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.kitob.nomi)
+        </td>
+        <td>
+            @item.kitobxon.familiya @item.kitobxon.ismi @item.kitobxon.sharifi
+        </td>
+        <td>
+            @item.xodim.familiya @item.xodim.ismi @item.xodim.sharifi
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.berilgan_vaqti)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.qaytarilish_vaqti)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Foyd_ber_kitoblarId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Foyd_ber_kitoblarId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Foyd_ber_kitoblarId })
+        </td>
+    </tr>
+}
+
+</table>

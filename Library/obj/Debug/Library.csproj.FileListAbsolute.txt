@@ -1,0 +1,150 @@
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Library.dll.config
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Library.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Library.pdb
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Antlr3.Runtime.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\EntityFramework.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\EntityFramework.SqlServer.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Newtonsoft.Json.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Helpers.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Mvc.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Optimization.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Razor.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.Deployment.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.Razor.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\WebGrease.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\EntityFramework.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\EntityFramework.SqlServer.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Helpers.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Mvc.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Optimization.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.Razor.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.Deployment.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\System.Web.WebPages.Razor.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Newtonsoft.Json.xml
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\bin\Antlr3.Runtime.pdb
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\obj\Debug\Library.dll
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\obj\Debug\Library.pdb
+c:\users\aslan\documents\visual studio 2013\Projects\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Aslan\Desktop\Library\Library\bin\Library.dll.config
+C:\Users\Aslan\Desktop\Library\Library\bin\Library.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\Library.pdb
+C:\Users\Aslan\Desktop\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\EntityFramework.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\EntityFramework.SqlServer.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Razor.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\WebGrease.dll
+C:\Users\Aslan\Desktop\Library\Library\bin\EntityFramework.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\EntityFramework.SqlServer.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Optimization.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.Razor.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\Aslan\Desktop\Library\Library\bin\Antlr3.Runtime.pdb
+C:\Users\Aslan\Desktop\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Aslan\Desktop\Library\Library\obj\Debug\Library.dll
+C:\Users\Aslan\Desktop\Library\Library\obj\Debug\Library.pdb
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Library.dll.config
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Library.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Library.pdb
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\EntityFramework.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\EntityFramework.SqlServer.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Razor.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\WebGrease.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\EntityFramework.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\EntityFramework.SqlServer.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Optimization.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.Razor.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\bin\Antlr3.Runtime.pdb
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\obj\Debug\Library.dll
+C:\Users\Aslan\Desktop\Готовые модулы\Library\Library\obj\Debug\Library.pdb
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Library.dll.config
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Library.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Library.pdb
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\EntityFramework.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\EntityFramework.SqlServer.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Razor.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\WebGrease.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\EntityFramework.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\EntityFramework.SqlServer.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Optimization.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.Razor.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\bin\Antlr3.Runtime.pdb
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\obj\Debug\Library.dll
+C:\Users\MAHMUDJON\Desktop\Asror\Library\Library\obj\Debug\Library.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Library.dll.config
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Library.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Library.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Antlr3.Runtime.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\EntityFramework.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\EntityFramework.SqlServer.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Newtonsoft.Json.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Helpers.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Mvc.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Optimization.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Razor.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.Razor.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\WebGrease.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\EntityFramework.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\EntityFramework.SqlServer.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Helpers.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Mvc.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Optimization.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.Razor.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\System.Web.WebPages.Razor.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Newtonsoft.Json.xml
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\bin\Antlr3.Runtime.pdb
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\obj\Debug\Library.dll
+C:\Users\ajhog\Downloads\Telegram Desktop\Asror\Library\Library\obj\Debug\Library.pdb

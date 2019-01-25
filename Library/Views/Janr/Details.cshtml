@@ -1,0 +1,26 @@
+﻿@model Library.Models.Janr
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Janr</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.janr_nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.janr_nomi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.JanrId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

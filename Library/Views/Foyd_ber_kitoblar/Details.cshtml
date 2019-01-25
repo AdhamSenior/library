@@ -1,0 +1,58 @@
+﻿@model Library.Models.Foyd_ber_kitoblar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Foyd_ber_kitoblar</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.kitob.nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kitob.nomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.kitobxon.familiya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kitobxon.familiya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.xodim.familiya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.xodim.familiya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.berilgan_vaqti)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.berilgan_vaqti)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.qaytarilish_vaqti)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qaytarilish_vaqti)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Foyd_ber_kitoblarId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

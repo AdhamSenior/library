@@ -1,0 +1,74 @@
+﻿@model Library.Models.Foyd_ber_kitoblar
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Foyd_ber_kitoblar</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.Foyd_ber_kitoblarId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.XodimId, "XodimId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("XodimId", String.Empty)
+                @Html.ValidationMessageFor(model => model.XodimId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.KitobxonId, "KitobxonId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("KitobxonId", String.Empty)
+                @Html.ValidationMessageFor(model => model.KitobxonId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.KitobId, "KitobId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("KitobId", String.Empty)
+                @Html.ValidationMessageFor(model => model.KitobId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.berilgan_vaqti, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.berilgan_vaqti)
+                @Html.ValidationMessageFor(model => model.berilgan_vaqti)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.qaytarilish_vaqti, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.qaytarilish_vaqti)
+                @Html.ValidationMessageFor(model => model.qaytarilish_vaqti)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

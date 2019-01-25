@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Library.Models.Kitobxon>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.familiya)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ismi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sharifi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tugilgan_yili)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.millati)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.passport_seriya)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.passport_nomer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.adress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefon)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.familiya)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ismi)
+        <td>
+            @Html.DisplayFor(modelItem => item.sharifi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tugilgan_yili)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.millati)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.passport_seriya)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.passport_nomer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telefon)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.KitobxonId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.KitobxonId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.KitobxonId })
+        </td>
+    </tr>
+}
+
+</table>

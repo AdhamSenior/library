@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Library.Models.Janr>
+@{
+    Layout = null;
+}
+@foreach (var aa in Model)
+{
+    <!--<li><a href="/Kitob/Janrlar" style="font-size:larger;font-family:'Copperplate Gothic';text-decoration:none">aa.janr_nomi</a></li>-->
+    <p style="font-size:larger;font-family:'Copperplate Gothic'">@Html.ActionLink(aa.janr_nomi, "Janr_boyicha", new { id = aa.JanrId })</p>
+    <p></p>
+}

@@ -1,0 +1,73 @@
+﻿@model Library.Models.Xodim
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Xodim</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.familiya, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.familiya)
+                @Html.ValidationMessageFor(model => model.familiya)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ismi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ismi)
+                @Html.ValidationMessageFor(model => model.ismi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.sharifi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.sharifi)
+                @Html.ValidationMessageFor(model => model.sharifi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.login, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.login)
+                @Html.ValidationMessageFor(model => model.login)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.parol, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.parol)
+                @Html.ValidationMessageFor(model => model.parol)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

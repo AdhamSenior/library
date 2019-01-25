@@ -1,0 +1,90 @@
+﻿@model Library.Models.Kitob
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Kitob</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.janr.janr_nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.janr.janr_nomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nomi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nomi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chop_etilg_yil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chop_etilg_yil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avtor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.avtor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nashriyot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nashriyot)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.betlar_soni)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.betlar_soni)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soni)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soni)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rasmi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rasmi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.qisqacha_malumot)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qisqacha_malumot)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KitobId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Library</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="/Content/templatemo_style.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="templatemo_container">
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="/Kitob/Index" class="current">Home</a></li>
+                <li><a href="/Kitob/GetPoisk">Izlash</a></li>
+                <li><a href="/Kitob/Index">Kitoblar</a></li>
+                <li><a href="/Kitob/Yangilari">Yangi chop etilganlar</a></li>
+                <li><a href="/Foyd_ber_kitoblar/Index">Fydalanishga berilgan kitoblar</a></li>
+                <li><a href="/Xodim/Index">Xodimlar</a></li>
+                <li><a href="/Kitobxon/Index">Kitobxonlar</a></li>
+            </ul>
+        </div> <!-- end of menu -->
+
+        <div id="templatemo_header">
+            <div id="templatemo_special_offers">
+               @{Html.RenderAction("Protsent", "Foyd_ber_kitoblar");}
+                <a href="/Foyd_ber_kitoblar" style="margin-left: 50px;">Ko'rish...</a>
+            </div>
+            <div id="templatemo_new_books">
+                <ul>
+                    <li>Bilimlar dunyosi</li>
+                    <li>Zakovat kaliti</li>
+                    <li>Ma'naviy ruh</li>
+                </ul>
+                <a href="#" style="margin-left: 50px;">Ko'rish...</a>
+            </div>
+        </div> <!-- end of header -->
+
+        <div id="templatemo_content">
+
+            <div id="templatemo_content_left">
+                <div class="templatemo_content_left_section">
+                    <h1>Janrlar</h1>
+                    <ul>
+                        @{Html.RenderAction("Janrlar", "Janr");}
+                    </ul>
+                </div>
+                <div class="templatemo_content_left_section">
+                    <h1>Avtorlar</h1>
+                    <ul>
+                        @{Html.RenderAction("Avtorlar", "Kitob");}
+                    </ul>
+                </div>
+            </div> <!-- end of content left -->
+
+            <div id="templatemo_content_right">
+                 @RenderBody()
+            </div> <!-- end of content right -->
+
+            <div class="cleaner_with_height">&nbsp;</div>
+        </div> <!-- end of content -->
+
+        <div id="templatemo_footer">
+
+            <a href="/Home/Index">Home</a> | <a href="/Kitob/GetPoisk">Izlash</a> | <a href="/Kitob/Index">Kitoblar</a> | <a href="/Kitob/Yangilari">Yangilar</a> | <a href="/Home/biz">Biz bilan bog'lanish</a><br />
+            Copyright © 2019 <a href="#"><strong>Asror</strong></a>
+            <!-- Credit: www.templatemo.com -->
+        </div>
+        <!-- end of footer -->
+        <!--  Free CSS Template www.templatemo.com -->
+    </div> <!-- end of container -->
+    <!-- templatemo 086 book store -->
+    <!--
+    Book Store Template
+    http://www.templatemo.com/preview/templatemo_086_book_store
+    -->
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

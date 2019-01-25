@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Library.Models.Kitob>
+
+@{
+    ViewBag.Title = "Natija";
+}
+
+<h2>Natija</h2>
+<table>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td width="50" height="70">
+                <img src="@item.rasmi" style="width:100%;height:100%" />
+            </td>
+            <td>
+                @item.nomi<br />@item.chop_etilg_yil.ToShortDateString()<br />@item.avtor</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                @Html.ActionLink("Edit", "Edit", new { id = item.KitobId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.KitobId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.KitobId })
+            </td>
+        </tr>
+
+    }
+</table>

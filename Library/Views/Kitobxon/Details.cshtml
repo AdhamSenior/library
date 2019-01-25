@@ -1,0 +1,90 @@
+﻿@model Library.Models.Kitobxon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Kitobxon</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.familiya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.familiya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ismi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ismi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sharifi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sharifi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tugilgan_yili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tugilgan_yili)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.millati)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.millati)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.passport_seriya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.passport_seriya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.passport_nomer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.passport_nomer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefon)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KitobxonId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

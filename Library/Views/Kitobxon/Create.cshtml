@@ -1,0 +1,105 @@
+﻿@model Library.Models.Kitobxon
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Kitobxon</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.familiya, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.familiya)
+                @Html.ValidationMessageFor(model => model.familiya)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ismi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ismi)
+                @Html.ValidationMessageFor(model => model.ismi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.sharifi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.sharifi)
+                @Html.ValidationMessageFor(model => model.sharifi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.tugilgan_yili, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.tugilgan_yili)
+                @Html.ValidationMessageFor(model => model.tugilgan_yili)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.millati, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.millati)
+                @Html.ValidationMessageFor(model => model.millati)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.passport_seriya, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.passport_seriya)
+                @Html.ValidationMessageFor(model => model.passport_seriya)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.passport_nomer, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.passport_nomer)
+                @Html.ValidationMessageFor(model => model.passport_nomer)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.adress, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.adress)
+                @Html.ValidationMessageFor(model => model.adress)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.telefon, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.telefon)
+                @Html.ValidationMessageFor(model => model.telefon)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
